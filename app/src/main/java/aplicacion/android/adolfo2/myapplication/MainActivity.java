@@ -14,8 +14,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Toast.makeText(this,"onCreate", Toast.LENGTH_LONG).show();
 
-        //Probando la clase creada Test
-        //Test.myToast(this);
+        //Comprobando que funciona nuestro control de versiones con GitHub
+        Toast.makeText(this,"Comprobando que funciona nuestro control de versiones",Toast.LENGTH_LONG);
     }
 
     @Override
