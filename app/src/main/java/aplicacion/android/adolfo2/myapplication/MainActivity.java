@@ -5,6 +5,7 @@ import android.content.Context;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.Toast;
+import android.support.constraint.ConstraintLayout;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -14,8 +15,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Toast.makeText(this,"onCreate", Toast.LENGTH_LONG).show();
 
-        //Comprobando que funciona nuestro control de versiones con GitHub
-        Toast.makeText(this,"Comprobando que funciona nuestro control de versiones",Toast.LENGTH_LONG);
+        //Probando la clase creada Test
+        //Test.myToast(this);
     }
 
     @Override
